@@ -1,0 +1,102 @@
+page {
+	background: #f8f8f8;
+}
+.login{
+	
+}
+.login-top{
+	width: 750upx;
+	height: 415upx;
+}
+.login-top image{
+	width: 750upx;
+	height: 415upx;
+}
+.login-con{
+	width: 690upx;
+	height: 739upx;
+	background-color: #ffffff;
+	border-radius: 8upx;
+	margin-left: 30upx;
+	margin-top: -133upx;
+	position: relative;
+}
+.login-con-top{
+	min-height: 50upx;
+	width: 100%;
+}
+.login-con-top image{
+	width: 150upx;
+	height: 150upx;
+	border: solid 2upx #ffffff;
+	border-radius: 50%;
+	margin-left: 270upx;
+	margin-top: -75upx;
+}
+.login-tel{
+	width: 590upx;
+	height: 60upx;
+	margin:0 auto;
+	margin-top: 58upx;
+}
+.login-tel image{
+	width: 30upx;
+	height: 44upx;
+	float: left;
+	margin-top: 6upx;
+}
+.login-tel input{
+	width: 520upx;
+	height: 60upx;
+	display: inline-block;
+	border-bottom:1px solid #e1e1e1;
+	margin-left: 40upx;
+	font-size: 28upx;
+	color: #333333;
+}
+.place-holder{
+	color: #999999;
+	font-weight: 300;
+}
+.login-psw{
+	width: 590upx;
+	height: 60upx;
+	margin:0 auto;
+	margin-top: 58upx;
+	position: relative;
+}
+.login-psw-psw{
+	width: 30upx;
+	height: 32upx;
+	float: left;
+	margin-top: 15upx;
+}
+.login-psw input{
+	width: 520upx;
+	height: 60upx;
+	display: inline-block;
+	border-bottom:1px solid #e1e1e1;
+	margin-left: 40upx;
+	font-size: 28upx;
+	color: #333333;
+}
+.login-psw-eye{
+	width: 35upx;
+	height: 23upx;
+	position: absolute;
+	right: 40upx;
+	top: 22upx;
+	cursor: pointer;
+	z-index:9;
+}
+.login-submit{
+	margin-top: 100upx;
+}
+.login-submit button{
+	width: 590upx;
+	height: 80upx;
+	background-color: #0f84f1;
+	border-radius: 40upx;
+	font-size: 30upx;
+	color: #ffffff;
+}

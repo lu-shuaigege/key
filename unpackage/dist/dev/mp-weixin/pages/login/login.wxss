@@ -1,0 +1,105 @@
+page {
+	background: #f8f8f8;
+}
+.login{
+}
+.login-top{
+	width: 750rpx;
+	height: 415rpx;
+}
+.login-top image{
+	width: 750rpx;
+	height: 415rpx;
+}
+.login-con{
+	width: 690rpx;
+	height: 739rpx;
+	background-color: #ffffff;
+	-webkit-border-radius: 8rpx;
+	        border-radius: 8rpx;
+	margin-left: 30rpx;
+	margin-top: -133rpx;
+	position: relative;
+}
+.login-con-top{
+	min-height: 50rpx;
+	width: 100%;
+}
+.login-con-top image{
+	width: 150rpx;
+	height: 150rpx;
+	border: solid 2rpx #ffffff;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	margin-left: 270rpx;
+	margin-top: -75rpx;
+}
+.login-tel{
+	width: 590rpx;
+	height: 60rpx;
+	margin:0 auto;
+	margin-top: 58rpx;
+}
+.login-tel image{
+	width: 30rpx;
+	height: 44rpx;
+	float: left;
+	margin-top: 6rpx;
+}
+.login-tel input{
+	width: 520rpx;
+	height: 60rpx;
+	display: inline-block;
+	border-bottom:1px solid #e1e1e1;
+	margin-left: 40rpx;
+	font-size: 28rpx;
+	color: #333333;
+}
+.place-holder{
+	color: #999999;
+	font-weight: 300;
+}
+.login-psw{
+	width: 590rpx;
+	height: 60rpx;
+	margin:0 auto;
+	margin-top: 58rpx;
+	position: relative;
+}
+.login-psw-psw{
+	width: 30rpx;
+	height: 32rpx;
+	float: left;
+	margin-top: 15rpx;
+}
+.login-psw input{
+	width: 520rpx;
+	height: 60rpx;
+	display: inline-block;
+	border-bottom:1px solid #e1e1e1;
+	margin-left: 40rpx;
+	font-size: 28rpx;
+	color: #333333;
+}
+.login-psw-eye{
+	width: 35rpx;
+	height: 23rpx;
+	position: absolute;
+	right: 40rpx;
+	top: 22rpx;
+	cursor: pointer;
+	z-index:9;
+}
+.login-submit{
+	margin-top: 100rpx;
+}
+.login-submit button{
+	width: 590rpx;
+	height: 80rpx;
+	background-color: #0f84f1;
+	-webkit-border-radius: 40rpx;
+	        border-radius: 40rpx;
+	font-size: 30rpx;
+	color: #ffffff;
+}
+

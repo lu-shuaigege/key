@@ -1,0 +1,293 @@
+page {
+	background: #0F84F1;
+}
+
+.keycabinetlist {
+	position: relative;
+	min-height: 100vh;
+	padding-bottom: 100upx;
+	box-sizing: border-box;
+}
+
+.dot-bg {
+	position: absolute;
+	right: 0;
+	top: 10upx;
+	z-index: -1;
+	width: 319upx;
+	height: 514upx;
+	opacity: 0.4;
+}
+
+.keycabinetlist-top {
+	width: 100%;
+	height: 190upx;
+}
+
+.keycabinetlist-top image {
+	width: 120upx;
+	height: 120upx;
+	border: solid 2upx #ffffff;
+	border-radius: 50%;
+	float: left;
+	margin-top: 40upx;
+	margin-left: 30upx;
+}
+
+.keycabinetlist-top-r {
+	display: inline-block;
+	margin-top: 55upx;
+	margin-left: 20upx;
+}
+
+.keycabinetlist-top-r-name {
+	display: block;
+	font-size: 30upx;
+	color: #ffffff;
+}
+
+.keycabinetlist-top-r-text {
+	display: block;
+	font-size: 24upx;
+	color: #ffffff;
+	opacity: 0.8;
+	font-weight: 300;
+	margin-top: 20upx;
+}
+
+.keycabinet-normal {
+	width: 690upx;
+	height: 310upx;
+	background-color: #ffffff;
+	border-radius: 8upx;
+	margin: 20upx auto;
+}
+
+.keycabinet-normal-top {
+	margin-left: 20upx;
+	/* margin-right: 30upx; */
+}
+
+.keycabinet-normal-top2 {
+	margin-left: 30upx;
+}
+
+.keycabinet-normal-top label {
+	width: 6upx;
+	height: 30upx;
+	background-color: #0f84f1;
+	border-radius: 3upx;
+	display: inline-block;
+	margin-left: 14upx;
+	vertical-align: middle;
+}
+
+.keycabinet-normal-top-name {
+	font-size: 30upx;
+	color: #333333;
+	width: 450upx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 20upx;
+}
+
+.keycabinet-normal-top-num {
+	font-size: 30upx;
+	color: #333333;
+}
+
+.dot-green {
+	width: 24upx !important;
+	height: 24upx !important;
+	vertical-align: middle;
+}
+
+.keycabinet-normal-top-r {
+	float: right;
+	margin-right: 29upx;
+}
+
+.keycabinet-normal-top-r image {
+	width: 30upx;
+	height: 30upx;
+	/* vertical-align: middle; */
+}
+
+.keycabinet-normal-top-r text {
+	font-size: 24upx;
+	color: #00be55;
+	margin-left: 10upx;
+}
+
+.exception-text {
+	color: #ff3232 !important;
+}
+
+.keycabinet-normal-con {}
+
+.keycabinet-normal-con image {
+	width: 170upx;
+	height: 141upx;
+	float: left;
+	margin-left: 30upx;
+}
+
+.keycabinet-normal-con-r {
+	margin-top: 30upx;
+}
+
+.keycabinet-normal-con-r .progress-name {
+	float: left;
+	font-size: 24upx;
+	color: #666666;
+	margin-right: 10upx;
+	width: 96upx;
+	justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	margin-left: 67upx;
+}
+
+.progress {
+	width: 90%;
+	height: 50upx;
+	position: relative;
+}
+
+.progress-box {
+	padding-top: 15upx;
+}
+
+.progress-num {
+	position: absolute;
+	font-size: 24upx;
+	color: #666666;
+	right: -38upx;
+	top: 0;
+}
+
+.keycabinetlist-line {
+	width: 100%;
+	text-align: center;
+}
+
+.keycabinetlist-line image {
+	width: 690upx;
+	height: 1upx;
+}
+
+.keycabinetlist-con {}
+
+.keycabinetlist-con-p {
+	white-space: nowrap;
+	width: 97%;
+}
+
+.keycabinetlist-con-s {
+	display: inline-block;
+	width: 200upx;
+	height: 230upx;
+	background-color: #ffffff;
+	border-radius: 8upx;
+	text-align: center;
+	font-size: 36upx;
+	margin-left: 30upx;
+	margin-top: 40upx;
+}
+
+.keycabinetlist-con-s image {
+	width: 87upx;
+	height: 72upx;
+	margin-top: 30upx;
+	margin-bottom: 10upx;
+}
+.keycabinetlist-con-s text {
+	font-size: 23upx;
+	color: #333333;
+	display: block;
+}
+
+.keycabinet-bottom {
+	width: 750upx;
+	height: 80upx;
+	line-height: 80upx;
+	background-color: #0067c6;
+	text-align: center;
+	/* margin-top: 50upx; */
+	position: absolute;
+	bottom: 0;
+}
+
+.keycabinet-bottom image {
+	width: 41upx;
+	height: 40upx;
+	vertical-align: middle;
+}
+
+.keycabinet-bottom text {
+	width: 1upx;
+	height: 30upx;
+	background-color: #ffffff;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 20upx;
+	margin-right: 20upx;
+}
+
+.keycabinet-bottom label {
+	font-size: 30upx;
+	color: #ffffff;
+}
+
+.administratornews {
+	width: 690upx;
+	height: 120upx;
+	background-color: #f8f8f8;
+	border-radius: 8upx;
+	margin: 0 auto;
+	margin-top: 15upx;
+}
+
+.administratornews image {
+	width: 114upx;
+	height: 109upx;
+	float: left;
+	margin-left: 21upx;
+	margin-top: 11upx;
+}
+
+.administratornews-con {
+	display: inline-block;
+	margin-top: 25upx;
+	margin-left: 9upx;
+}
+
+.administratornews-con .name {
+	font-size: 28upx;
+	color: #0f84f1;
+	display: block;
+}
+
+.administratornews-con .news {
+	font-size: 24upx;
+	color: #666666;
+	display: block;
+}
+
+.administratornews button {
+	width: 140upx;
+	height: 48upx;
+	line-height: 48upx;
+	background-color: #0f84f1;
+	border-radius: 24upx;
+	font-size: 24upx;
+	color: #ffffff;
+	padding: 0;
+	display: inline-block;
+	margin-top: 36rpx;
+	float: right;
+	margin-right: 50rpx;
+}

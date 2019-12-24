@@ -1,0 +1,1 @@
+<view class="login"><view class="login-top"><image src="../../static/home-bg.png"></image></view><view class="login-con"><view class="login-con-top"><image src="{{avatarUrl}}"></image><text class="name">{{nickName}}</text></view><view class="login-submit"><button data-event-opts="{{[['tap',[['userLogout']]]]}}" bindtap="__e">退出</button></view></view></view>

@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/keycabinetlist/keycabinetlist",
+    "pages/keycabinetdetail/keycabinetdetail",
+    "pages/auditlist/auditlist",
+    "pages/homepage/homepage"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "智能钥匙柜",
+    "navigationBarBackgroundColor": "#0f84f1",
+    "backgroundColor": "#0f84f1"
+  },
+  "permission": {},
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

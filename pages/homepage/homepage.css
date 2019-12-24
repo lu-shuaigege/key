@@ -1,0 +1,87 @@
+page {
+	background: #f8f8f8;
+}
+.login{
+	
+}
+.login-top{
+	width: 750upx;
+	height: 343upx;
+}
+.login-top image{
+	width: 750upx;
+	height: 343upx;
+}
+.login-con{
+	width: 690upx;
+	height: 600upx;
+	border-radius: 8upx;
+	margin-left: 30upx;
+	margin-top: -146upx;
+	position: relative;
+	background: url(../../static/homecon-bg.png) no-repeat;
+	background-size: 100% 100%;
+}
+.login-con-top{
+	width: 100%;
+	text-align: center;
+}
+.login-con-top image{
+	width: 150upx;
+	height: 150upx;
+	border: solid 2upx #ffffff;
+	border-radius: 50%;
+	/* margin-left: 270upx; */
+	margin-top: -75upx;
+}
+.login-con-top .name{
+	display: block;
+	font-size: 30upx;
+	color: #333333;
+	margin-top: 20upx;
+}
+.login-con-top .info{
+	display: block;
+	font-size: 24upx;
+	color: #666666;
+	margin-top: 20upx;
+}
+.login-submit{
+	margin-top: 150upx;
+}
+.login-submit button{
+	width: 590upx;
+	height: 80upx;
+	background-color: #0f84f1;
+	border-radius: 40upx;
+	font-size: 30upx;
+	color: #ffffff;
+}
+.keycabinet-bottom{
+	width: 750upx;
+	height: 80upx;
+	line-height: 80upx;
+	background-color: #e1e1e1;
+	text-align: center;
+	/* margin-top: 50upx; */
+	position: absolute;
+	bottom: 0;
+}
+.keycabinet-bottom image{
+	width: 41upx;
+	height: 40upx;
+	vertical-align: middle;
+}
+.keycabinet-bottom text{
+	width: 1upx;
+	height: 30upx;
+	background-color: #666666;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 20upx;
+	margin-right: 20upx;
+}
+.keycabinet-bottom label{
+	font-size: 30upx;
+	color: #666666;
+}
